@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rkuck\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rkuck\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Multi-Input First Person Controller (Lite).672767560.00" t="ExcludeRecursive" />
+    <e p="E:\MyGames\Multi-Input First Person Controller (Lite)" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="MFPC" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="ICameraModule.cs" t="Include" />
+            </e>
+            <e p="Control" t="Include">
+              <e p="Joystick.cs" t="Include" />
+              <e p="RunField.cs" t="Include" />
+              <e p="TouchField.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="MFPCToolbar.cs" t="Include" />
+              <e p="PlayerDataEditor.cs" t="Include" />
+            </e>
+            <e p="Example" t="Include">
+              <e p="InteractTrigger.cs" t="Include" />
+              <e p="PlayerTeleport.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="InputConfig.cs" t="Include" />
+              <e p="NewInput" t="Include">
+                <e p="SettingsInputActions.cs" t="Include" />
+              </e>
+              <e p="PlayerInput" t="Include">
+                <e p="IPlayerInput.cs" t="Include" />
+                <e p="MobilePlayerInputHandler.cs" t="Include" />
+                <e p="OldPlayerInputHandler.cs" t="Include" />
+                <e p="PlayerInputHandler.cs" t="Include" />
+                <e p="PlayerInputTuner.cs" t="Include" />
+                <e p="ProxyPlayerInputHandler.cs" t="Include" />
+              </e>
+              <e p="SensitiveData.cs" t="Include" />
+              <e p="SettingsInput" t="Include">
+                <e p="ISettingsInput.cs" t="Include" />
+                <e p="MobileSettingsInputHandler.cs" t="Include" />
+                <e p="OldSettingsInputHandler.cs" t="Include" />
+                <e p="ProxySettingsInputHandler.cs" t="Include" />
+                <e p="SettingsInputTuner.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MFPCBootstrap.cs" t="Include" />
+            <e p="MFPCCameraAnimation.cs" t="Include" />
+            <e p="MFPCPushObject.cs" t="Include" />
+            <e p="Move" t="Include">
+              <e p="Core" t="Include">
+                <e p="Player.cs" t="Include" />
+                <e p="PlayerState.cs" t="Include" />
+                <e p="PlayerStateMachine.cs" t="Include" />
+              </e>
+              <e p="MFPCCameraRotation.cs" t="Include" />
+              <e p="MFPCJump.cs" t="Include" />
+              <e p="MFPCMovement.cs" t="Include" />
+              <e p="MFPCPlayerRotation.cs" t="Include" />
+              <e p="MFPCRun.cs" t="Include" />
+              <e p="Movement" t="Include">
+                <e p="CharacterControllerMovement.cs" t="Include" />
+                <e p="IMovement.cs" t="Include" />
+              </e>
+              <e p="PlayerGroundedState.cs" t="Include" />
+            </e>
+            <e p="MoveConditions.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="Settings" t="Include">
+              <e p="InputTypeSetup.cs" t="Include" />
+              <e p="SensivitySetup.cs" t="Include" />
+            </e>
+            <e p="Settings.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="CenterHeaderAttribute.cs" t="Include" />
+              <e p="CenterHeaderDrawer.cs" t="Include" />
+              <e p="CharacterControllerExtensions.cs" t="Include" />
+              <e p="EnumUtils.cs" t="Include" />
+              <e p="FieldDrawer.cs" t="Include" />
+              <e p="HeaderDataAttribute.cs" t="Include" />
+              <e p="ReactiveProperty.cs" t="Include" />
+              <e p="RotateHelper.cs" t="Include" />
+              <e p="SaveLoad" t="Include">
+                <e p="ISaver.cs" t="Include" />
+                <e p="PlayerPrefsSaver.cs" t="Include" />
+              </e>
+              <e p="TextureReader.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Multi-Input First Person Controller (Lite).sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
