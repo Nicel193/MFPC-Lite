@@ -84,7 +84,7 @@ namespace MFPC
                     blendAnimation = 1.0f;
                     break;
                 case MoveConditions.Jump:
-                    cameraAnimator.Play(JumpNameAnimation);
+                    cameraAnimator.SetTrigger(JumpNameAnimation);
                     break;
                 case MoveConditions.Fell:
                     if (fallTime >= timeToFallAnimation) cameraAnimator.Play(FellNameAnimation);

@@ -20,3 +20,4 @@ MonoBehaviour:
   <JumpForce>k__BackingField: 4
   <JumpSFX>k__BackingField: {fileID: 8300000, guid: 74ed616413f1d03489057fa23d879555,
     type: 3}
+  <UnderRayDistance>k__BackingField: 0.5

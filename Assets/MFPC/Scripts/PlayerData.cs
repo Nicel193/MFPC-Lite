@@ -40,9 +40,10 @@ namespace MFPC
         [HeaderData("Jump")]
         [field: SerializeField] public float JumpForce { get; private set; }
         [field: SerializeField] public AudioClip JumpSFX { get; private set; }
+        [field: SerializeField] public float UnderRayDistance { get; private set; } = 0.1f;
         
         #endregion
-        
+
         /// <summary>
         /// Checks whether such a condition exists
         /// </summary>

@@ -1,4 +1,5 @@
 using UnityEngine;
+using MFPC.Utils;
 
 namespace MFPC
 {
@@ -12,10 +13,8 @@ namespace MFPC
 
         public MFPCJump(Player player, PlayerStateMachine stateMachine, PlayerData playerData, MFPCPlayerRotation playerRotation) : base(
             player, stateMachine, playerData, playerRotation)
-        {
-            
-        }
-
+        { }
+        
         public override void Enter()
         {
             base.Enter();
@@ -43,12 +42,18 @@ namespace MFPC
         /// </summary>
         private void Jump()
         {
-            if (player.CharacterController.isGrounded)
+            if (IsGround())
             {
                 player.Movement.MoveVertical(Vector3.up, playerData.JumpForce);
                 player.ChangeMoveCondition(MoveConditions.Jump);
                 PlaySound(playerData.JumpSFX);
             }
+        }
+
+        private bool IsGround()
+        {
+            Ray ray = new Ray(player.CharacterController.GetUnderPosition(), Vector3.down);
+            return Physics.Raycast(ray, out RaycastHit raycastHit, playerData.UnderRayDistance);
         }
     }
 }

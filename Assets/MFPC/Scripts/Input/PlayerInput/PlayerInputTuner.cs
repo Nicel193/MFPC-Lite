@@ -39,7 +39,7 @@ namespace MFPC.Input.PlayerInput
                     break;
 
                 case InputType.KeyboardMouse:
-                    _proxyPlayerInputHandler.SetPlayerInputHandler(Test(inputType));
+                    _proxyPlayerInputHandler.SetPlayerInputHandler(GetCurrentPlayerInputHandler(inputType));
                     _mobilePlayerInputHandler.gameObject.SetActive(false);
                     Cursor.lockState = CursorLockMode.Locked;
                     break;
@@ -56,7 +56,7 @@ namespace MFPC.Input.PlayerInput
             return playerInputHandler;
         }
         
-        private PlayerInputHandler Test(InputType inputType)
+        private PlayerInputHandler GetCurrentPlayerInputHandler(InputType inputType)
         {
             OldPlayerInputHandler playerInputHandler = GetPlayerInputHandler<OldPlayerInputHandler>();
 

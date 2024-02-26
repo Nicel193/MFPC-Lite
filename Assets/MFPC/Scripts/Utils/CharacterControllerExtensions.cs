@@ -9,5 +9,13 @@ namespace MFPC.Utils
             @this.gameObject.transform.position = target;
             Physics.SyncTransforms();
         }
+        
+        public static Vector3 GetUnderPosition(this CharacterController @this)
+        {
+            var bounds = @this.bounds;
+            return new Vector3(bounds.center.x,
+                bounds.min.y,
+                bounds.center.z);
+        }
     }
 }
